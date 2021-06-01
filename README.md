@@ -12,7 +12,9 @@ Run the below command
 # Yocto build steps
 Go to the directory
  -  cd yocto
+
 Sync the yocto project specify the branch
  -  ./StartBuild.sh sync qemuarm warrior
+
 Start the compilation with the command
  -  ./StartBuild.sh all
