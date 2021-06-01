@@ -8,7 +8,7 @@ https://docs.docker.com/get-docker/
 # To build the Yocto
  -  docker build -t yocto-compile:latest --build-arg USERNAME=dev --build-arg PUID=1000 --build-arg PGID=1000  .
 
-# Go to directory conatining containing the StartBuild.sh and yocto-entrypoint.sh scripts
+# Yocto build steps
  -  Go to the directory
     cd yocto
  -  Sync the yocto project specify the branch
